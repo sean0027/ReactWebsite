@@ -1,0 +1,46 @@
+var _g;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgTwitterIcon(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 46.8,
+    height: 38.025,
+    viewBox: "0 0 46.8 38.025",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "twitter_2_",
+    "data-name": "twitter (2)",
+    transform: "translate(0 -48)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group_188",
+    "data-name": "Group 188",
+    transform: "translate(0 48)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_43",
+    "data-name": "Path 43",
+    d: "M46.8,52.5a20,20,0,0,1-5.528,1.515,9.541,9.541,0,0,0,4.221-5.3,19.174,19.174,0,0,1-6.084,2.322,9.594,9.594,0,0,0-16.6,6.561,9.879,9.879,0,0,0,.222,2.188A27.157,27.157,0,0,1,3.258,49.749,9.6,9.6,0,0,0,6.207,62.572a9.475,9.475,0,0,1-4.335-1.182V61.5a9.639,9.639,0,0,0,7.687,9.427,9.576,9.576,0,0,1-2.516.316,8.483,8.483,0,0,1-1.816-.164,9.686,9.686,0,0,0,8.965,6.684A19.278,19.278,0,0,1,2.3,81.851,17.97,17.97,0,0,1,0,81.719a27.011,27.011,0,0,0,14.719,4.306c17.655,0,27.308-14.625,27.308-27.3,0-.424-.015-.834-.035-1.24A19.14,19.14,0,0,0,46.8,52.5Z",
+    transform: "translate(0 -48)",
+    fill: "#fff"
+  })))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgTwitterIcon);
+export default __webpack_public_path__ + "static/media/twitterIcon.77b08bf36adfe9d6d455d2d864fe563b.svg";
+export { ForwardRef as ReactComponent };

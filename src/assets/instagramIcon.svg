@@ -1,0 +1,37 @@
+var _path;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgInstagramIcon(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 39.744,
+    height: 39.735,
+    viewBox: "0 0 39.744 39.735",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    id: "instagram",
+    d: "M19.8,41.505A10.188,10.188,0,1,0,29.989,51.693,10.172,10.172,0,0,0,19.8,41.505Zm0,16.811a6.623,6.623,0,1,1,6.623-6.623A6.635,6.635,0,0,1,19.8,58.316ZM32.782,41.088a2.376,2.376,0,1,1-2.376-2.376A2.371,2.371,0,0,1,32.782,41.088ZM39.53,43.5c-.151-3.183-.878-6-3.21-8.326s-5.143-3.05-8.326-3.21c-3.281-.186-13.114-.186-16.394,0-3.174.151-5.994.878-8.326,3.2S.224,40.308.065,43.491c-.186,3.281-.186,13.114,0,16.394.151,3.183.878,6,3.21,8.326s5.143,3.05,8.326,3.21c3.281.186,13.114.186,16.394,0,3.183-.151,6-.878,8.326-3.21s3.05-5.143,3.21-8.326c.186-3.281.186-13.1,0-16.385ZM35.291,63.405a6.706,6.706,0,0,1-3.777,3.777c-2.616,1.037-8.822.8-11.713.8s-9.106.231-11.713-.8a6.705,6.705,0,0,1-3.777-3.777c-1.037-2.616-.8-8.822-.8-11.713s-.231-9.106.8-11.713A6.706,6.706,0,0,1,8.089,36.2c2.616-1.037,8.822-.8,11.713-.8s9.106-.231,11.713.8a6.706,6.706,0,0,1,3.777,3.777c1.037,2.616.8,8.822.8,11.713S36.329,60.8,35.291,63.405Z",
+    transform: "translate(0.075 -31.825)",
+    fill: "#fff"
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgInstagramIcon);
+export default __webpack_public_path__ + "static/media/instagramIcon.337abd932bd1c67bc769421edbd3e79e.svg";
+export { ForwardRef as ReactComponent };

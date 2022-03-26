@@ -1,0 +1,728 @@
+var _defs, _g;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgLeft(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 404.255,
+    height: 321.356,
+    viewBox: "0 0 404.255 321.356",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 170,
+    width: 404.255,
+    height: 321.356,
+    fill: "none"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient",
+    x1: 0.842,
+    y1: 0.137,
+    x2: 0.158,
+    y2: 0.924,
+    gradientUnits: "objectBoundingBox"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#201e21"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.21,
+    stopColor: "#3d1f4b"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.681,
+    stopColor: "#8623b4"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#ba26ff"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-2",
+    x1: 2.943,
+    y1: -5.468,
+    x2: 2.28,
+    y2: -3.481,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-3",
+    x1: 0.842,
+    y1: 0.138,
+    x2: 0.158,
+    y2: 0.926,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-4",
+    x1: 0.842,
+    y1: 0.143,
+    x2: 0.158,
+    y2: 0.93,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-5",
+    x1: 0.843,
+    y1: 0.147,
+    x2: 0.157,
+    y2: 0.925,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-6",
+    x1: 0.842,
+    y1: 0.135,
+    x2: 0.158,
+    y2: 0.922,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-7",
+    x1: 0.842,
+    y1: 0.15,
+    x2: 0.158,
+    y2: 0.937,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-8",
+    x1: 0.799,
+    y1: -0.293,
+    x2: 0.263,
+    y2: 1.327,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-9",
+    x1: 0.774,
+    y1: -0.438,
+    x2: 0.248,
+    y2: 2.224,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-10",
+    x1: 0.826,
+    y1: -0.33,
+    x2: 0.174,
+    y2: 1.518,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-11",
+    x1: 0.764,
+    y1: -0.775,
+    x2: 0.255,
+    y2: 1.505,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-12",
+    x1: 0.784,
+    y1: -0.479,
+    x2: 0.14,
+    y2: 1.092,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-13",
+    x1: 0.877,
+    y1: 0.189,
+    x2: 0.186,
+    y2: 1.035,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-14",
+    x1: 0.711,
+    y1: 0.231,
+    x2: 0.374,
+    y2: 0.759,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-15",
+    x1: 0.626,
+    y1: 0.365,
+    x2: 0.289,
+    y2: 0.893,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-16",
+    x1: 0.962,
+    y1: 0.277,
+    x2: -0.672,
+    y2: 0.796,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-17",
+    x1: 1.633,
+    y1: 0.283,
+    x2: 0.018,
+    y2: 0.807,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-18",
+    x1: 0.79,
+    y1: 0.405,
+    x2: 0.203,
+    y2: 0.889,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-19",
+    x1: 0.74,
+    y1: -0.175,
+    x2: 0.26,
+    y2: 1.384,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-20",
+    x1: 0.736,
+    y1: -0.006,
+    x2: 0.264,
+    y2: 1.153,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-21",
+    x1: 0.731,
+    y1: -0.385,
+    x2: 0.246,
+    y2: 2.039,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-22",
+    x1: 0.723,
+    y1: -0.799,
+    x2: 0.258,
+    y2: 2.154,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-23",
+    x1: 0.875,
+    y1: -0.07,
+    x2: 0.007,
+    y2: 1.023,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-24",
+    x1: 0.745,
+    y1: 0.014,
+    x2: 0.266,
+    y2: 1.106,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-25",
+    x1: 0.944,
+    y1: 0.051,
+    x2: 0.137,
+    y2: 1.218,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-26",
+    x1: 0.709,
+    y1: 0.152,
+    x2: 0.341,
+    y2: 0.897,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-27",
+    x1: 0.813,
+    y1: -0.109,
+    x2: 0.273,
+    y2: 1.123,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-28",
+    x1: 0.815,
+    y1: -0.555,
+    x2: 0.185,
+    y2: 1.672,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-29",
+    x1: 0.743,
+    y1: -0.046,
+    x2: 0.257,
+    y2: 1.861,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-30",
+    x1: 0.662,
+    y1: 0.232,
+    x2: 0.281,
+    y2: 1.035,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-31",
+    x1: 0.852,
+    y1: 0.192,
+    x2: 0.158,
+    y2: 0.971,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-32",
+    x1: 0.787,
+    y1: -0.41,
+    x2: 0.269,
+    y2: 1.377,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-33",
+    x1: 0.799,
+    y1: -0.468,
+    x2: 0.201,
+    y2: 1.758,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-34",
+    x1: 0.717,
+    y1: 0.093,
+    x2: 0.311,
+    y2: 1.073,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-35",
+    x1: 0.804,
+    y1: -0.433,
+    x2: 0.176,
+    y2: 1.6,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-36",
+    x1: -2.483,
+    y1: 1.408,
+    x2: -1.823,
+    y2: -0.6,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-37",
+    x1: 0.755,
+    y1: -0.534,
+    x2: 0.264,
+    y2: 1.621,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-38",
+    x1: 0.824,
+    y1: -0.367,
+    x2: 0.196,
+    y2: 1.667,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-39",
+    x1: 0.908,
+    y1: -0.008,
+    x2: 0.153,
+    y2: 1.285,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-40",
+    x1: 0.761,
+    y1: -1.48,
+    x2: 0.239,
+    y2: 3.276,
+    xlinkHref: "#linear-gradient"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "linear-gradient-41",
+    x1: 0.765,
+    y1: -0.977,
+    x2: 0.235,
+    y2: 2.772,
+    xlinkHref: "#linear-gradient"
+  }))), /*#__PURE__*/React.createElement("g", {
+    id: "Scroll_Group_1",
+    "data-name": "Scroll Group 1",
+    transform: "translate(-170)",
+    clipPath: "url(#clip-path)",
+    style: {
+      isolation: "isolate"
+    }
+  }, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Group_5346",
+    "data-name": "Group 5346",
+    transform: "matrix(-1, -0.017, 0.017, -1, 568.819, 321.356)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group_5321",
+    "data-name": "Group 5321",
+    transform: "translate(0 0)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group_5280",
+    "data-name": "Group 5280",
+    transform: "translate(372.211 114.676)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5171",
+    "data-name": "Path 5171",
+    d: "M26.869,0h52.3a.721.721,0,0,1,.624.361l26.149,45.291a.72.72,0,0,1,0,.721L79.791,91.662a.72.72,0,0,1-.624.36h-52.3a.72.72,0,0,1-.624-.36L.1,46.372a.721.721,0,0,1,0-.721L26.245.361A.721.721,0,0,1,26.869,0ZM78.75,1.442H27.285L1.553,46.011l25.732,44.57H78.75l25.732-44.57Z",
+    fill: "url(#linear-gradient)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5281",
+    "data-name": "Group 5281",
+    transform: "translate(201.356 172.743)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5172",
+    "data-name": "Path 5172",
+    d: "M19.493,0h81.64a.721.721,0,0,1,.624,1.081L82.985,33.6a.721.721,0,0,1-.624.36H.721A.721.721,0,0,1,.1,32.875L18.869.36A.721.721,0,0,1,19.493,0ZM99.885,1.442H19.909L1.969,32.515H81.945Z",
+    fill: "url(#linear-gradient-2)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5282",
+    "data-name": "Group 5282",
+    transform: "translate(462.801 60.867)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5173",
+    "data-name": "Path 5173",
+    d: "M25.641,0H75.48A.721.721,0,0,1,76.1.36l24.92,43.162a.721.721,0,0,1,0,.721L76.1,87.406a.721.721,0,0,1-.624.36H25.641a.721.721,0,0,1-.624-.36L.1,44.244a.721.721,0,0,1,0-.721L25.016.36A.721.721,0,0,1,25.641,0ZM75.064,1.442H26.057L1.553,43.883l24.5,42.442H75.064l24.5-42.442Z",
+    fill: "url(#linear-gradient-3)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5283",
+    "data-name": "Group 5283",
+    transform: "translate(113.236 122.591)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5174",
+    "data-name": "Path 5174",
+    d: "M22.3,0H65.457a.721.721,0,0,1,.624.36L87.66,37.736a.72.72,0,0,1,0,.721L66.081,75.832a.721.721,0,0,1-.624.36H22.3a.721.721,0,0,1-.624-.36L.1,38.457a.72.72,0,0,1,0-.721L21.675.36A.721.721,0,0,1,22.3,0ZM65.041,1.441H22.716L1.553,38.1,22.716,74.751H65.041L86.2,38.1Z",
+    fill: "url(#linear-gradient-4)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5284",
+    "data-name": "Group 5284",
+    transform: "translate(290.414 62.287)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5175",
+    "data-name": "Path 5175",
+    d: "M22.772,0H65.293a.72.72,0,0,1,.624.36L87.968,38.554a.721.721,0,0,1,0,.721L65.917,77.468a.721.721,0,0,1-.624.36H22.772a.721.721,0,0,1-.624-.36L.1,39.275a.721.721,0,0,1,0-.721L22.147.36A.721.721,0,0,1,22.772,0ZM64.877,1.442H23.188L1.553,38.914,23.188,76.387H64.877L86.512,38.914Z",
+    fill: "url(#linear-gradient-5)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5285",
+    "data-name": "Group 5285",
+    transform: "translate(456.313 164.226)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5176",
+    "data-name": "Path 5176",
+    d: "M28.508,0H84.084a.721.721,0,0,1,.624.36L112.5,48.49a.721.721,0,0,1,0,.721L84.708,97.341a.721.721,0,0,1-.624.36H28.508a.721.721,0,0,1-.624-.36L.1,49.211a.721.721,0,0,1,0-.721L27.884.36A.721.721,0,0,1,28.508,0ZM83.668,1.442H28.924L1.553,48.85,28.924,96.259H83.668L111.039,48.85Z",
+    fill: "url(#linear-gradient-6)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5286",
+    "data-name": "Group 5286",
+    transform: "translate(300.894 181.083)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5177",
+    "data-name": "Path 5177",
+    d: "M18.776,0h36.11a.721.721,0,0,1,.624.36L73.565,31.632a.721.721,0,0,1,0,.721L55.51,63.625a.721.721,0,0,1-.624.36H18.776a.72.72,0,0,1-.624-.36L.1,32.353a.721.721,0,0,1,0-.721L18.152.36A.721.721,0,0,1,18.776,0ZM54.469,1.442H19.192L1.553,31.993,19.192,62.544H54.469L72.109,31.993Z",
+    transform: "translate(0 0)",
+    fill: "url(#linear-gradient-7)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5287",
+    "data-name": "Group 5287",
+    transform: "translate(132.312 172.743)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5178",
+    "data-name": "Path 5178",
+    d: "M182.542,0h45.74a.721.721,0,0,1,.624.36l22.87,39.612a.721.721,0,0,1,0,.721l-22.87,39.612a.721.721,0,0,1-.624.36H203.031a3.523,3.523,0,1,1,0-1.441h24.835L250.32,40.333,227.866,1.442H182.958L160.3,40.694a.721.721,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H159.255L181.917.36A.721.721,0,0,1,182.542,0ZM3.523,42.414a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,42.414Zm196.06,39.612a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,199.583,82.027Z",
+    fill: "url(#linear-gradient-8)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5288",
+    "data-name": "Group 5288",
+    transform: "translate(164.607 220.696)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5179",
+    "data-name": "Path 5179",
+    d: "M91.267,0h36.11A.721.721,0,0,1,128,.36l12.4,21.472a3.523,3.523,0,1,1-1.951,5.108h0a3.525,3.525,0,0,1,.7-4.388L126.96,1.442H91.681L78.549,24.015a.72.72,0,0,1-.623.358H6.971a3.523,3.523,0,1,1,0-1.442h70.54L90.644.358A.72.72,0,0,1,91.267,0ZM3.522,25.734a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.522,25.734ZM141.5,27.26a2.081,2.081,0,1,0-1.806-1.04h0A2.082,2.082,0,0,0,141.5,27.26Z",
+    fill: "url(#linear-gradient-9)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5289",
+    "data-name": "Group 5289",
+    transform: "translate(203.087 226.41)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5180",
+    "data-name": "Path 5180",
+    d: "M80.981,0a3.523,3.523,0,1,1-3.449,4.243H60.3L47.27,26.64a.721.721,0,0,1-.623.358H6.971a3.523,3.523,0,1,1,0-1.441H46.232l13.03-22.4a.721.721,0,0,1,.623-.358H77.532A3.529,3.529,0,0,1,80.981,0Zm0,5.6A2.081,2.081,0,1,0,78.9,3.523,2.084,2.084,0,0,0,80.981,5.6ZM3.523,28.359a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,3.523,28.359Z",
+    fill: "url(#linear-gradient-10)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5290",
+    "data-name": "Group 5290",
+    transform: "translate(148.435 217.894)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5181",
+    "data-name": "Path 5181",
+    d: "M3.522,0A3.529,3.529,0,0,1,6.971,2.8H95.387a.72.72,0,0,1,.623,1.083L87.624,18.3a.721.721,0,0,1-.623.358H40.926a3.523,3.523,0,1,1,0-1.442H86.587L94.134,4.243H6.971A3.523,3.523,0,1,1,3.522,0Zm0,5.6A2.081,2.081,0,1,0,1.442,3.523,2.083,2.083,0,0,0,3.522,5.6ZM37.477,20.019A2.081,2.081,0,1,0,35.4,17.938,2.083,2.083,0,0,0,37.477,20.019Z",
+    fill: "url(#linear-gradient-11)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5291",
+    "data-name": "Group 5291",
+    transform: "translate(280.609 49.549)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5182",
+    "data-name": "Path 5182",
+    d: "M238.224,0a3.523,3.523,0,1,1-3.449,4.243H204.651l-27.58,47.77a.72.72,0,0,1-.624.36H107.37L80.61,98.723a.721.721,0,0,1-.624.36h-52.3a.721.721,0,0,1-.624-.36L.1,52.013a.721.721,0,0,1,0-.721L27.065,4.582a.72.72,0,0,1,.624-.36H69.176a3.523,3.523,0,1,1,0,1.442H28.1L1.553,51.653,28.1,97.642H79.57l26.76-46.35a.721.721,0,0,1,.624-.36h69.077l27.58-47.77a.721.721,0,0,1,.624-.36h30.541A3.529,3.529,0,0,1,238.224,0Zm0,5.6a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,238.224,5.6Zm-165.6,1.42a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,72.625,7.024Z",
+    fill: "url(#linear-gradient-12)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5292",
+    "data-name": "Group 5292",
+    transform: "translate(362.267 0)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5183",
+    "data-name": "Path 5183",
+    d: "M50.917,0a3.529,3.529,0,0,1,3.449,2.8H89.111a.721.721,0,0,1,.624.36l26.149,45.291a.721.721,0,0,1,0,.721L89.735,94.464a.721.721,0,0,1-.624.36H21.333a.721.721,0,0,1-.624-.36L4.624,66.605a3.522,3.522,0,1,1,1.249-.721l15.876,27.5H88.694l25.732-44.57L88.694,4.243H54.366A3.523,3.523,0,1,1,50.917,0Zm0,5.6a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,50.917,5.6ZM3.528,65.339A2.081,2.081,0,1,0,1.722,64.3,2.066,2.066,0,0,0,3.528,65.339Z",
+    fill: "url(#linear-gradient-13)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5293",
+    "data-name": "Group 5293",
+    transform: "translate(400.421 118.972)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5184",
+    "data-name": "Path 5184",
+    d: "M3.523,0A3.529,3.529,0,0,1,6.971,2.8H45.278a.721.721,0,0,1,.624.36L66.229,38.369a3.529,3.529,0,0,1,4.151,1.586h0a3.523,3.523,0,1,1-5.4-.865L44.862,4.244H6.971A3.523,3.523,0,1,1,3.523,0Zm0,5.6A2.081,2.081,0,1,0,1.442,3.523,2.083,2.083,0,0,0,3.523,5.6ZM67.332,43.8a2.082,2.082,0,0,0,1.8-3.123h0a2.081,2.081,0,1,0-2.341,3.051A2.091,2.091,0,0,0,67.332,43.8Z",
+    fill: "url(#linear-gradient-14)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5294",
+    "data-name": "Group 5294",
+    transform: "translate(379.183 157.163)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5185",
+    "data-name": "Path 5185",
+    d: "M3.518,0a3.549,3.549,0,0,1,.917.121A3.523,3.523,0,0,1,5.873,6.15L25.991,41H63.882a3.523,3.523,0,1,1,0,1.442H25.575a.721.721,0,0,1-.624-.36L4.624,6.871A3.523,3.523,0,0,1,1.763.473h0A3.5,3.5,0,0,1,3.518,0Zm.009,5.6A2.081,2.081,0,1,0,2.484,1.722h0A2.081,2.081,0,0,0,3.528,5.6ZM67.33,43.8a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,67.33,43.8Z",
+    fill: "url(#linear-gradient-15)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5295",
+    "data-name": "Group 5295",
+    transform: "translate(528.319 66.583)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5186",
+    "data-name": "Path 5186",
+    d: "M3.518,0A3.522,3.522,0,0,1,5.873,6.148L24.151,37.807a.721.721,0,0,1,0,.721L5.873,70.175a3.523,3.523,0,1,1-5.4.865h0a3.529,3.529,0,0,1,4.151-1.586l18.07-31.286L4.624,6.869A3.523,3.523,0,1,1,3.518,0Zm.01,5.6a2.081,2.081,0,1,0-1.806-1.04A2.068,2.068,0,0,0,3.528,5.6Zm-.007,69.28a2.083,2.083,0,1,0-1.037-.28A2.085,2.085,0,0,0,3.521,74.883Z",
+    transform: "translate(0 0)",
+    fill: "url(#linear-gradient-16)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5296",
+    "data-name": "Group 5296",
+    transform: "translate(123.172 129.602)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5187",
+    "data-name": "Path 5187",
+    d: "M16.645,0a3.524,3.524,0,1,1-1.106,6.871L1.553,31.086,15.539,55.31a3.524,3.524,0,1,1-1.248.721L.1,31.447a.72.72,0,0,1,0-.721L14.291,6.15A3.526,3.526,0,0,1,16.645,0Zm-.009,5.606a2.089,2.089,0,0,0,1.806-1.042h0a2.079,2.079,0,1,0-1.806,1.042Zm.007,55.132a2.081,2.081,0,1,0-1.806-1.04A2.069,2.069,0,0,0,16.643,60.739Z",
+    fill: "url(#linear-gradient-17)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5297",
+    "data-name": "Group 5297",
+    transform: "translate(466.908 172.721)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5188",
+    "data-name": "Path 5188",
+    d: "M21.992,0a3.523,3.523,0,1,1-1.106,6.869L1.553,40.355,24.008,79.247H61.9a3.523,3.523,0,1,1,0,1.441H23.591a.721.721,0,0,1-.624-.36L.1,40.715a.721.721,0,0,1,0-.721L19.638,6.148a3.529,3.529,0,0,1-.7-4.388h0A3.525,3.525,0,0,1,21.992,0Zm-.009,5.6a2.081,2.081,0,1,0-1.037-.278A2.083,2.083,0,0,0,21.983,5.6ZM65.347,82.049a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,65.347,82.049Z",
+    fill: "url(#linear-gradient-18)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5298",
+    "data-name": "Group 5298",
+    transform: "translate(209.287 114.676)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5189",
+    "data-name": "Path 5189",
+    d: "M.721,0h71a.72.72,0,0,1,.624.36L87.02,25.778a.721.721,0,0,1-.624,1.081h-71a.721.721,0,0,1-.624-.361L.1,1.081A.721.721,0,0,1,.721,0ZM71.3,1.442H1.969L15.812,25.418H85.147Z",
+    fill: "url(#linear-gradient-19)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5299",
+    "data-name": "Group 5299",
+    transform: "translate(373.978 11.319)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5190",
+    "data-name": "Path 5190",
+    d: "M.721,0h71a.721.721,0,0,1,.624.36L93.576,37.134a.721.721,0,0,1-.624,1.081h-71a.721.721,0,0,1-.624-.361L.1,1.081A.721.721,0,0,1,.721,0ZM71.3,1.441H1.969l20.4,35.333H91.7Z",
+    fill: "url(#linear-gradient-20)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5300",
+    "data-name": "Group 5300",
+    transform: "translate(190.344 164.225)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5191",
+    "data-name": "Path 5191",
+    d: "M25.126,0H175.271a.721.721,0,0,1,.624.36l27.58,47.769h51.234a3.523,3.523,0,1,1,0,1.442H203.058a.721.721,0,0,1-.624-.36L174.854,1.442H25.542L5.871,35.515a3.516,3.516,0,1,1-1.248-.721L24.5.36A.721.721,0,0,1,25.126,0ZM3.519,40.221a2.08,2.08,0,1,0-1.037-.278A2.082,2.082,0,0,0,3.519,40.221Zm254.639,10.71a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,258.158,50.932Z",
+    transform: "translate(0 0)",
+    fill: "url(#linear-gradient-21)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5301",
+    "data-name": "Group 5301",
+    transform: "translate(189.717 107.579)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5192",
+    "data-name": "Path 5192",
+    d: "M203.685,0h63.653a.721.721,0,0,1,.624.36l27.558,47.733,30.146.036a3.523,3.523,0,1,1,0,1.442L295.1,49.534a.721.721,0,0,1-.623-.36L266.923,1.441H204.1l-27.58,47.77a.721.721,0,0,1-.624.36H25.753a.721.721,0,0,1-.624-.36L4.623,13.693A3.532,3.532,0,1,1,5.87,12.97l20.3,35.16H175.481L203.061.36A.72.72,0,0,1,203.685,0ZM3.522,12.427a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.522,12.427Zm325.594,38.5a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,329.116,50.932Z",
+    fill: "url(#linear-gradient-22)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5302",
+    "data-name": "Group 5302",
+    transform: "translate(273.386 42.452)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5193",
+    "data-name": "Path 5193",
+    d: "M65.979,0A3.523,3.523,0,1,1,62.53,4.243h-30.8L5.873,49.025A3.523,3.523,0,0,1,1.763,54.7,3.523,3.523,0,0,1,.474,49.891h0A3.526,3.526,0,0,1,4.625,48.3L30.688,3.162a.721.721,0,0,1,.624-.36H62.53A3.528,3.528,0,0,1,65.979,0Zm0,5.6A2.081,2.081,0,1,0,63.9,3.523,2.084,2.084,0,0,0,65.979,5.6ZM3.521,53.734a2.082,2.082,0,1,0-1.8-3.123h0a2.082,2.082,0,0,0,1.8,3.123Z",
+    fill: "url(#linear-gradient-23)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5303",
+    "data-name": "Group 5303",
+    transform: "translate(196.994 104.777)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5194",
+    "data-name": "Path 5194",
+    d: "M79.916,0a3.523,3.523,0,1,1-3.448,4.243H1.969L24.007,42.414h75.33a3.523,3.523,0,1,1,0,1.442H23.591a.721.721,0,0,1-.624-.36L.1,3.883A.721.721,0,0,1,.721,2.8H76.468A3.529,3.529,0,0,1,79.916,0Zm0,5.6a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,79.916,5.6Zm22.87,39.612a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,102.786,45.216Z",
+    fill: "url(#linear-gradient-24)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5304",
+    "data-name": "Group 5304",
+    transform: "translate(317.558 97.677)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5195",
+    "data-name": "Path 5195",
+    d: "M49.64,0a3.524,3.524,0,0,1,3.045,5.286,3.525,3.525,0,0,1-4.152,1.586L33.1,33.562a.72.72,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H32.056L47.285,6.151a3.525,3.525,0,0,1-.7-4.388h0A3.5,3.5,0,0,1,48.722.122,3.547,3.547,0,0,1,49.64,0Zm-.009,5.606a2.1,2.1,0,0,0,.542-.072,2.081,2.081,0,1,0-2.341-3.051h0a2.082,2.082,0,0,0,1.8,3.122ZM3.523,35.282A2.081,2.081,0,1,0,1.442,33.2,2.084,2.084,0,0,0,3.523,35.282Z",
+    fill: "url(#linear-gradient-25)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5305",
+    "data-name": "Group 5305",
+    transform: "translate(47.919 169.026)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5196",
+    "data-name": "Path 5196",
+    d: "M3.522,0A3.529,3.529,0,0,1,6.971,2.8H53.679a.721.721,0,0,1,.611.339l17.3,27.7a3.531,3.531,0,1,1-1.222.765L53.279,4.244H6.971A3.523,3.523,0,1,1,3.522,0Zm0,5.6A2.081,2.081,0,1,0,1.441,3.523,2.084,2.084,0,0,0,3.522,5.6ZM72.806,36.231a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,72.806,36.231Z",
+    fill: "url(#linear-gradient-26)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5306",
+    "data-name": "Group 5306",
+    transform: "translate(0 114.676)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5197",
+    "data-name": "Path 5197",
+    d: "M130.965,0h52.3a.721.721,0,0,1,.624.361l26.149,45.291a.721.721,0,0,1,0,.721l-26.149,45.29a.721.721,0,0,1-.624.36h-52.3a.721.721,0,0,1-.624-.36L106.859,50.991H38.314a3.522,3.522,0,1,1,0-1.441h68.961a.721.721,0,0,1,.624.36l23.482,40.672h51.465l25.732-44.57L182.846,1.442H131.382L107.9,42.113a.721.721,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442h99.888L130.341.361A.721.721,0,0,1,130.965,0ZM3.523,43.834a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,43.834Zm31.343,8.517a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,34.866,52.351Z",
+    fill: "url(#linear-gradient-27)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5307",
+    "data-name": "Group 5307",
+    transform: "translate(10.856 104.777)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5198",
+    "data-name": "Path 5198",
+    d: "M166.691,0a3.523,3.523,0,1,1-3.448,4.243h-48.4L91.365,44.915a.721.721,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H90.325L113.807,3.162a.721.721,0,0,1,.624-.36h48.812A3.529,3.529,0,0,1,166.691,0Zm0,5.6a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,166.691,5.6ZM3.522,46.636a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.522,46.636Z",
+    transform: "translate(0 0)",
+    fill: "url(#linear-gradient-28)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5308",
+    "data-name": "Group 5308",
+    transform: "translate(312.276 219.453)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5199",
+    "data-name": "Path 5199",
+    d: "M78.287,0H139.1a.721.721,0,0,1,.624.36l28.4,49.188h35.631a3.523,3.523,0,1,1,0,1.442H167.708a.721.721,0,0,1-.624-.36l-28.4-49.188H78.7L55.221,42.113a.721.721,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442h47.21L77.663.36A.721.721,0,0,1,78.287,0ZM3.523,43.834a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,43.834ZM207.2,52.351a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,207.2,52.351Z",
+    fill: "url(#linear-gradient-29)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5309",
+    "data-name": "Group 5309",
+    transform: "translate(281.26 243.442)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5200",
+    "data-name": "Path 5200",
+    d: "M3.519,0A3.524,3.524,0,0,1,6.927,4.436,3.5,3.5,0,0,1,5.873,6.151L22,34.076H73.611a3.523,3.523,0,1,1,0,1.442H21.579a.721.721,0,0,1-.624-.36L4.624,6.871A3.523,3.523,0,1,1,3.519,0Zm.009,5.6A2.081,2.081,0,1,0,2.484,1.722h0A2.081,2.081,0,0,0,3.528,5.6ZM77.059,36.878A2.081,2.081,0,1,0,74.978,34.8,2.084,2.084,0,0,0,77.059,36.878Z",
+    fill: "url(#linear-gradient-30)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5310",
+    "data-name": "Group 5310",
+    transform: "translate(380.281 233.684)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5201",
+    "data-name": "Path 5201",
+    d: "M27.1,0a3.529,3.529,0,0,1,3.448,2.8H58.321a.721.721,0,0,1,.624.36L77.718,35.678a.721.721,0,0,1,0,.721L58.946,68.914a.721.721,0,0,1-.624.36H17.379a.721.721,0,0,1-.624-.36L4.625,47.9A3.526,3.526,0,0,1,.474,46.316q-.053-.091-.1-.184v0l0,0a3.494,3.494,0,0,1-.3-2.26c.015-.075.033-.15.053-.224a3.521,3.521,0,0,1,4.71-2.358h0a3.523,3.523,0,0,1,2.212,3.262,3.54,3.54,0,0,1-.121.918,3.5,3.5,0,0,1-1.054,1.715L17.8,67.832h40.11L76.262,36.038,57.905,4.243H30.546A3.523,3.523,0,1,1,27.1,0Zm0,5.6a2.081,2.081,0,1,0-2.081-2.081A2.083,2.083,0,0,0,27.1,5.6ZM5.6,44.552a2.08,2.08,0,0,0-3.121-1.8h0a2.1,2.1,0,0,0-.43.329l0,0h0a2.06,2.06,0,0,0-.481.757l-.017.047q-.021.063-.038.127a2.1,2.1,0,0,0-.072.542,2.069,2.069,0,0,0,.28,1.037h0a2.081,2.081,0,0,0,2.77.8l.034-.018.038-.022A2.082,2.082,0,0,0,5.6,44.552Z",
+    fill: "url(#linear-gradient-31)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5311",
+    "data-name": "Group 5311",
+    transform: "translate(182.389 227.97)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5202",
+    "data-name": "Path 5202",
+    d: "M215.271,0H263.31a.721.721,0,0,1,.624.36l23.69,41.032a.72.72,0,0,1,0,.721l-23.69,41.032a.721.721,0,0,1-.624.36H208.174a.721.721,0,0,1-.624-.36L184.068,42.473h-57.94a.721.721,0,0,1-.624-.36L107.657,11.2H88.094L74.962,33.774a.721.721,0,0,1-.623.358H6.971a3.523,3.523,0,1,1,0-1.442H73.924L87.056,10.118a.721.721,0,0,1,.623-.358h20.394a.721.721,0,0,1,.624.36l17.847,30.912h57.939a.72.72,0,0,1,.624.36L208.59,82.064h54.3l23.274-40.311L262.894,1.442H215.687l-11.922,20.65a3.524,3.524,0,1,1-1.249-.72L214.647.36A.721.721,0,0,1,215.271,0ZM201.412,26.8a2.08,2.08,0,1,0-1.037-.278A2.082,2.082,0,0,0,201.412,26.8ZM3.523,35.493a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,35.493Z",
+    fill: "url(#linear-gradient-32)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5312",
+    "data-name": "Group 5312",
+    transform: "translate(47.919 36.737)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5203",
+    "data-name": "Path 5203",
+    d: "M253.207,0h62.8a.721.721,0,0,1,.624.36l16.182,28.028h61.23a3.523,3.523,0,1,1,0,1.442H332.4a.721.721,0,0,1-.624-.36L315.591,1.442H253.623L217,64.825a.721.721,0,0,1-.624.36H71.91L49.247,104.438a.72.72,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H48.207L70.869,64.1a.721.721,0,0,1,.624-.36H215.956L252.583.36A.72.72,0,0,1,253.207,0ZM397.493,31.191a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,397.493,31.191ZM3.522,106.158a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.522,106.158Z",
+    fill: "url(#linear-gradient-33)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5313",
+    "data-name": "Group 5313",
+    transform: "translate(395.444 17.033)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5204",
+    "data-name": "Path 5204",
+    d: "M3.523,0A3.529,3.529,0,0,1,6.971,2.8H44.577a.721.721,0,0,1,.624.36l8.075,13.987a3.515,3.515,0,1,1-1.249.72L44.161,4.243H6.971A3.523,3.523,0,1,1,3.523,0Zm0,5.6A2.081,2.081,0,1,0,1.442,3.523,2.084,2.084,0,0,0,3.523,5.6ZM54.38,22.576a2.08,2.08,0,1,0-1.806-1.04A2.069,2.069,0,0,0,54.38,22.576Z",
+    fill: "url(#linear-gradient-34)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5314",
+    "data-name": "Group 5314",
+    transform: "translate(212.939 177.543)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5205",
+    "data-name": "Path 5205",
+    d: "M74.251,0A3.523,3.523,0,1,1,70.8,4.244H13.74L5.873,17.869a3.523,3.523,0,0,1-4.11,5.677,3.523,3.523,0,0,1,2.862-6.4L12.7,3.162a.721.721,0,0,1,.624-.36H70.8A3.529,3.529,0,0,1,74.251,0Zm0,5.6A2.081,2.081,0,1,0,72.17,3.523,2.083,2.083,0,0,0,74.251,5.6ZM4.565,18.694a2.081,2.081,0,1,0,.969,1.264,2.084,2.084,0,0,0-.969-1.264Z",
+    fill: "url(#linear-gradient-35)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5315",
+    "data-name": "Group 5315",
+    transform: "translate(174.019 58.535)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5206",
+    "data-name": "Path 5206",
+    d: "M20.022,0h85.292a.721.721,0,0,1,.625,1.081L86.638,34.51a.721.721,0,0,1-.624.36H.721A.721.721,0,0,1,.1,33.79L19.4.36A.721.721,0,0,1,20.022,0Zm84.044,1.442H20.438L1.969,33.429H85.6Z",
+    fill: "url(#linear-gradient-36)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5316",
+    "data-name": "Group 5316",
+    transform: "translate(207.588 28.221)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5207",
+    "data-name": "Path 5207",
+    d: "M89.39,0h75.465a.721.721,0,0,1,.624.36l16.182,28.028,72.785-.036a.721.721,0,0,1,.625,1.081L238.736,57.727a.721.721,0,0,1-.624.36H184.126a.721.721,0,0,1-.624-.36l-6.448-11.168a.721.721,0,0,1,.624-1.081h36.447a3.523,3.523,0,1,1,0,1.442h-35.2l5.616,9.727H237.7l15.5-26.852-71.953.036a.72.72,0,0,1-.625-.36L164.439,1.441H89.8L77.284,22.882a.721.721,0,0,1-.622.357H6.971a3.523,3.523,0,1,1,0-1.442H76.248L88.768.357A.72.72,0,0,1,89.39,0ZM3.523,24.6a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,24.6Zm214.05,23.68a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,217.573,48.28Z",
+    fill: "url(#linear-gradient-37)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5317",
+    "data-name": "Group 5317",
+    transform: "translate(189.905 63.673)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5208",
+    "data-name": "Path 5208",
+    d: "M74.255,0a3.523,3.523,0,1,1-1.106,6.869L65.073,20.856a.72.72,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H64.033L71.9,6.148a3.529,3.529,0,0,1-.7-4.388h0A3.526,3.526,0,0,1,74.255,0Zm-.009,5.6a2.08,2.08,0,1,0-1.037-.278A2.082,2.082,0,0,0,74.246,5.6ZM3.523,22.577A2.081,2.081,0,1,0,1.441,20.5,2.083,2.083,0,0,0,3.523,22.577Z",
+    fill: "url(#linear-gradient-38)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5318",
+    "data-name": "Group 5318",
+    transform: "translate(127.324 63.673)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5209",
+    "data-name": "Path 5209",
+    d: "M52.2,0a3.522,3.522,0,0,1,3.045,5.283A3.526,3.526,0,0,1,51.1,6.87L38.1,29.373a.721.721,0,0,1-.624.36H6.971a3.523,3.523,0,1,1,0-1.442H37.063L49.848,6.148A3.522,3.522,0,0,1,52.2,0Zm-.009,5.6a2.1,2.1,0,0,0,.542-.072,2.069,2.069,0,1,0-.542.072ZM3.523,31.093a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,3.523,31.093Z",
+    fill: "url(#linear-gradient-39)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5319",
+    "data-name": "Group 5319",
+    transform: "translate(301.112 16.902)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5210",
+    "data-name": "Path 5210",
+    d: "M3.523,0A3.529,3.529,0,0,1,6.972,2.8H57.134a3.523,3.523,0,1,1,0,1.442H6.972A3.523,3.523,0,1,1,3.523,0Zm0,5.6A2.081,2.081,0,1,0,1.442,3.523,2.084,2.084,0,0,0,3.523,5.6Zm57.06,0A2.081,2.081,0,1,0,58.5,3.523,2.083,2.083,0,0,0,60.583,5.6Z",
+    fill: "url(#linear-gradient-40)"
+  })), /*#__PURE__*/React.createElement("g", {
+    id: "Group_5320",
+    "data-name": "Group 5320",
+    transform: "translate(232.14 130.195)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_5211",
+    "data-name": "Path 5211",
+    d: "M3.523,0A3.529,3.529,0,0,1,6.971,2.8H42.939a3.523,3.523,0,1,1,0,1.442H6.971A3.523,3.523,0,1,1,3.523,0Zm0,5.6A2.081,2.081,0,1,0,1.442,3.523,2.084,2.084,0,0,0,3.523,5.6Zm42.865,0a2.081,2.081,0,1,0-2.081-2.081A2.084,2.084,0,0,0,46.388,5.6Z",
+    fill: "url(#linear-gradient-41)"
+  })))))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgLeft);
+export default __webpack_public_path__ + "static/media/left.d71a781b81cb21f774303a0f86c43447.svg";
+export { ForwardRef as ReactComponent };
